@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Contains a function that return a float sum of the numbers found in the
 arg - input_list"""
-input_list = list[float]
+from typing import List
+input_list = List[float]
 
 
 def sum_list(input_list: input_list) -> float:
