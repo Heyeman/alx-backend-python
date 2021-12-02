@@ -1,7 +1,12 @@
-#!/usr/bin/env python
-"""Module containing floor function."""
+#!/usr/bin/env python3
+""" Basic annotations - floor """
+
 
 def floor(n: float) -> int:
-    """Returns the floor of a N"""
-    from math import floor
-    return floor(n)
+    """
+    Parameters
+    ----------
+    n: float
+    Return: the floor of the float
+    """
+    return int(n)
